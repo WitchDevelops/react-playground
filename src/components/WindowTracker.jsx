@@ -17,7 +17,7 @@ const WindowTracker = () => {
     }, [])
   return (
     <div>
-        <h2>useEffect hook and cleanup</h2>
+        <h3>useEffect hook and cleanup</h3>
         <p>Window width: {windowWidth}</p>
     </div>
   )
