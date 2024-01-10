@@ -1,6 +1,8 @@
 import React from 'react';
 import WindowTracker from './components/WindowTracker';
 import APICall from './components/APICall';
+import NestedCheckboxes from './components/NestedCheckboxes';
+import Form from './components/Form';
 import './App.css'
 
 function App() {
@@ -13,16 +15,24 @@ function App() {
       <header>
         <h1>Some React Hooks</h1>
       </header>
-      <div>
+      {/* <div>
         <h2>Making calls to an API</h2>
         <APICall/>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <h2>useEffect</h2>
         <button onClick={toggle}>
         Toggle Window Tracker component
       </button>
       {show && <WindowTracker/>}
+      </div> */}
+      {/* <div>
+        <h2>Nested checkboxes</h2>
+        <NestedCheckboxes />
+      </div> */}
+      <div>
+        <h2>Form</h2>
+        <Form />
       </div>
     </>
   )
