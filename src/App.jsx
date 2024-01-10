@@ -3,6 +3,7 @@ import WindowTracker from './components/WindowTracker';
 import APICall from './components/APICall';
 import NestedCheckboxes from './components/NestedCheckboxes';
 import Form from './components/Form';
+import ReactHookForm from './components/ReactHookForm';
 import './App.css'
 
 function App() {
@@ -30,9 +31,13 @@ function App() {
         <h2>Nested checkboxes</h2>
         <NestedCheckboxes />
       </div> */}
-      <div>
+      {/* <div>
         <h2>Form</h2>
         <Form />
+      </div> */}
+      <div>
+        <h2>Form with React Hook Form Library</h2>
+        <ReactHookForm />
       </div>
     </>
   )

@@ -50,6 +50,14 @@
   width: 100%;
 }
 
+.form__group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .form input {
   width: 95%;
   padding: 0.5rem;
